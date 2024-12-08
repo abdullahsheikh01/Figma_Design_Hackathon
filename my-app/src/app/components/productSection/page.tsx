@@ -5,7 +5,7 @@ interface ProductSection{
     products:Products[],
     cols:string
 }
-const ProductSection = (prop:ProductSection) => {
+const ProductSectionn = (prop:ProductSection) => {
     const gridCols:string = `grid-cols-${prop.cols}`;
     return (
     <div className={`grid ${gridCols} mt-10 gap-4 `}>
@@ -61,4 +61,4 @@ const ProductSection = (prop:ProductSection) => {
   )
 }
 
-export default ProductSection;
+export default ProductSectionn;
