@@ -1,4 +1,4 @@
-import ProductSectionn from "../productSection/page";
+import ProductSection from "../productSection/page";
 import { ProductSection1 } from "../../../../productsData";
 import { ProductSection2 } from "../../../../productsData";
 const OurProducts = () => {
@@ -9,8 +9,8 @@ const OurProducts = () => {
       Our Products</h3>
       </div>
       <div className='mt-[73px] grid grid-rows-2 mb-[134px]'>
-        <ProductSectionn products={ProductSection1} cols="4"/>
-        <ProductSectionn products={ProductSection2} cols="4"/>
+        <ProductSection products={ProductSection1} cols="4"/>
+        <ProductSection products={ProductSection2} cols="4"/>
       </div>
     </div>
   )
