@@ -1,1 +1,0 @@
-# Figma_Design_Hackathon
