@@ -1,4 +1,3 @@
-import Header from "@/app/components/header/page";
 import Hero from "@/app/components/hero/page";
 import CompaniesLogos from "@/app/components/companiesLogos/page";
 import FeaturedProducts from "@/app/components/featuredProducts/page";
