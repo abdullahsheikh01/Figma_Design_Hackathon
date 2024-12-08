@@ -14,7 +14,7 @@ export const popularProducts : popularProduct[] = [
     },
     {
         title:"Gray Chair",
-        imgUrl:"gray_chair.svg"
+        imgUrl:"/gray_chair.svg"
     },
     {
         title:"Off White Chair",
