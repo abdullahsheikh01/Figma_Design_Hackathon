@@ -1,7 +1,9 @@
 import { Products } from "../../../../productsData";
 import Image from "next/image";
 import Link from "next/link";
-const ProductSectionComp = (prop:any) => {
+const ProductSectionComp = (prop:{
+    products:Products[]
+}) => {
     return (
     <div className={`grid grid-cols-4  mt-10 gap-4 `}>
       {
