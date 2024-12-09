@@ -1,4 +1,4 @@
-import { Products } from "../../../../productsData";
+import { Products } from "../../../productsData";
 import Image from "next/image";
 import Link from "next/link";
 const ProductSectionComp = (prop:{

@@ -1,4 +1,4 @@
-import ProductSectionComp from "../productSection/page";
+import ProductSectionComp from "../ProductSection";
 import { ProductSection1 } from "../../../../productsData";
 import { ProductSection2 } from "../../../../productsData";
 const OurProducts = () => {

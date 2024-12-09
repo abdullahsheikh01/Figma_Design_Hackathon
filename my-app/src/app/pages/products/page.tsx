@@ -1,4 +1,4 @@
-import ProductSectionComp from "@/app/components/productSection/page";
+import ProductSectionComp from "@/app/components/ProductSection";
 import { ProductSection3 } from "../../../../productsData";
 import { ProductSection4 } from "../../../../productsData";
 import { ProductSection5 } from "../../../../productsData";
