@@ -1,7 +1,4 @@
 import { categoryProducts } from "./categoryProducts";
-export interface ProductSection{
-    products:Products[],
-}
 export interface Products{
     imgUrl:string,
     label?:"New"|"Sales",

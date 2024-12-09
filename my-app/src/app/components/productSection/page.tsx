@@ -1,8 +1,7 @@
 import { Products } from "../../../../productsData";
 import Image from "next/image";
 import Link from "next/link";
-import { ProductSection } from "../../../../productsData";
-const ProductSectionComp = (prop:ProductSection) => {
+const ProductSectionComp = (prop:any) => {
     return (
     <div className={`grid grid-cols-4  mt-10 gap-4 `}>
       {
