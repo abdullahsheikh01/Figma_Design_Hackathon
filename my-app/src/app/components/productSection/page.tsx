@@ -3,9 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { ProductSection } from "../../../../productsData";
 const ProductSectionComp = (prop:ProductSection) => {
-    const gridCols:string = `grid-cols-${prop.cols}`;
     return (
-    <div className={`grid ${gridCols}  mt-10 gap-4 `}>
+    <div className={`grid grid-cols-4  mt-10 gap-4 `}>
       {
         prop.products.map(
             (product:Products,index:number)=>{

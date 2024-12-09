@@ -1,7 +1,6 @@
 import { categoryProducts } from "./categoryProducts";
 export interface ProductSection{
     products:Products[],
-    cols:string
 }
 export interface Products{
     imgUrl:string,
