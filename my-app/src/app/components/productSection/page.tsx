@@ -1,14 +1,11 @@
 import { Products } from "../../../../productsData";
 import Image from "next/image";
 import Link from "next/link";
-interface ProductSection{
-    products:Products[],
-    cols:string
-}
+import { ProductSection } from "../../../../productsData";
 const ProductSectionComp = (prop:ProductSection) => {
     const gridCols:string = `grid-cols-${prop.cols}`;
     return (
-    <div className={`grid ${gridCols} mt-10 gap-4 `}>
+    <div className={`grid ${gridCols}  mt-10 gap-4 `}>
       {
         prop.products.map(
             (product:Products,index:number)=>{
