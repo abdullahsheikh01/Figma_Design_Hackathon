@@ -9,8 +9,8 @@ const OurProducts = () => {
       Our Products</h3>
       </div>
       <div className='mt-[73px] grid grid-rows-2 mb-[134px]'>
-        <ProductSectionComp products={ProductSection1} cols="4"/>
-        <ProductSectionComp products={ProductSection2} cols="4"/>
+        <ProductSectionComp products={ProductSection1}/>
+        <ProductSectionComp products={ProductSection2}/>
       </div>
     </div>
   )
