@@ -7,6 +7,11 @@ export interface Products{
     oldPrice?:string,
     id:number,
 }
+export interface ProductsImg{
+    imgUrl:string,
+    id:number,
+    title:string
+}
 export const ProductSection1:Products[]=[
     {
         title:"Library Stool Chair",
@@ -108,4 +113,32 @@ export const ProductSection5:Products[]=[
         id:4,
         price:"$20"
     }
+];
+
+export const ProductSection6 : ProductsImg[] = [
+    {
+        imgUrl:ProductSection4[0].imgUrl,
+        id:1,
+        title:ProductSection4[0].title
+    },
+    {
+        imgUrl:ProductSection5[0].imgUrl,
+        id:2,
+        title:ProductSection5[0].title
+    },
+    {
+        imgUrl:ProductSection5[1].imgUrl,
+        id:3,
+        title:ProductSection5[1].title
+    },
+    {
+        imgUrl:ProductSection5[2].imgUrl,
+        id:4,
+        title:ProductSection5[2].title
+    },
+    {
+        imgUrl:ProductSection5[3].imgUrl,
+        id:5,
+        title:ProductSection5[3].title
+    },
 ]

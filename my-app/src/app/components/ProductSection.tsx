@@ -2,10 +2,10 @@ import { Products } from "../../../productsData";
 import Image from "next/image";
 import Link from "next/link";
 const ProductSectionComp = (prop:{
-    products:Products[]
+    products:Products[],
 }) => {
     return (
-    <div className={`grid grid-cols-4  mt-10 gap-4 `}>
+    <div className={`grid grid-cols-4  mt-10 cols-4 `}>
       {
         prop.products.map(
             (product:Products,index:number)=>{

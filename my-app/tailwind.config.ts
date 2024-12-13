@@ -10,7 +10,9 @@ export default {
     extend: {
       fontFamily:{
         inter:['Inter','sans-serif'],
-        poppins:['Poppins','sans-serif']
+        poppins:['Poppins','sans-serif'],
+        roboto:['Roboto','sans-serif'],
+        openSans:['OpenSans','sans-serif']
       },
       colors: {
         background: "var(--background)",
