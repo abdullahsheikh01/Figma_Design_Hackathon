@@ -5,7 +5,10 @@ import Link from "next/link";
 interface ParamsType{
   slug: string;
 };
-const Products = ({ params }: { params: ParamsType }) => {
+interface ProductsProps {
+  params: ParamsType;
+}
+const Products = ({ params }: ProductsProps) => {
   console.log(params.slug)
   return (
     <div>
