@@ -3,7 +3,6 @@ import { ProductSection3 } from "../../../../productsData";
 import { ProductSection4 } from "../../../../productsData";
 import { ProductSection5 } from "../../../../productsData";
 import ProductsHero from "@/app/components/products_hero/page";
-import Footer from "@/app/components/footer/page";
 const Products = () => {
   return (
     <div>

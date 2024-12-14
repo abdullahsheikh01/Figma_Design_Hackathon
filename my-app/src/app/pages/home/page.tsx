@@ -4,7 +4,6 @@ import FeaturedProducts from "@/app/components/featuredProducts/page";
 import TopCategories from "@/app/components/topCategories/page";
 import PopularStyles from "@/app/components/popularStyles/page";
 import OurProducts from "@/app/components/ourProducts/page";
-import Footer from "@/app/components/footer/page";
 export default function Home(){
   return (
     <div>
