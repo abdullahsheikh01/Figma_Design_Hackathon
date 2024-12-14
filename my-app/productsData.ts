@@ -141,4 +141,12 @@ export const ProductSection6 : ProductsImg[] = [
         id:5,
         title:ProductSection5[3].title
     },
+];
+
+export const ProductSection7: Products[] = [
+    ProductSection4[2],
+    ProductSection3[0],
+    ProductSection5[3],
+    ProductSection5[2],
+    ProductSection5[0]
 ]

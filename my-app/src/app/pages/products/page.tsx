@@ -16,7 +16,6 @@ const Products = () => {
       </div>
     </div>
     <ProductsHero/>
-    <Footer/>
     </div>
   )
 }

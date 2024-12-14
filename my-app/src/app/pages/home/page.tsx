@@ -17,7 +17,6 @@ export default function Home(){
       <OurProducts/>
       <div className="h-[0.5px] w-full bg-[#F0F2F3]"/>
       </div>
-      <Footer/>
     </div>
   );
 }

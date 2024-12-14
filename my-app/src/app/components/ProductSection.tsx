@@ -5,7 +5,7 @@ const ProductSectionComp = (prop:{
     products:Products[],
 }) => {
     return (
-    <div className={`grid grid-cols-4  mt-10 cols-4 `}>
+    <div className={`grid grid-cols-4  mt-10  gap-8`}>
       {
         prop.products.map(
             (product:Products,index:number)=>{
@@ -22,7 +22,7 @@ const ProductSectionComp = (prop:{
                     {product.oldPrice}</span>:<></>
                 return(
                     <div key={index}>
-                        <Link href="">
+                        <Link href={`/products/${product.imgUrl}`}>
                         <div key={index} className="flex flex-col">
                         <div className="h-[249.6px] w-[249.6px] flex bg-cover"
                         style={{backgroundImage:`url(${product.imgUrl})`}}>
