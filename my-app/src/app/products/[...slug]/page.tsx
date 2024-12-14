@@ -76,6 +76,14 @@ const Products = ({ params }: ProductsProps) => {
       </div>
     </div>
   )
-}
+};
+export const getServerSideProps = async (context: any) => {
+  const { params } = context;
+  return {
+    props: {
+      params,
+    },
+  };
+};
 
 export default Products
