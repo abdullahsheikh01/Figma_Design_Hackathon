@@ -1,22 +1,22 @@
+"use client";
 import Image from "next/image";
 import { ProductSection7 } from "../../../../productsData";
 import Link from "next/link";
+import { Params } from "next/dist/server/request/params";
+import { useParams } from "next/navigation";
 
 interface ParamsType {
   slug: string;
 }
 
-const Products = async ({ params }: { params: ParamsType }) => {
-  const { slug } = params;
-
-  // Find the product using the slug
-  const product = ProductSection7.find((item) => item.imgUrl === slug);
+const Products = () => {
+  const data : Params = useParams();
 
   return (
     <div>
       <div className="pl-[208px] flex pt-[132px] gap-[88px] pr-[268px]">
         <Image
-          src={`/${slug}`}
+          src={`/${data.slug}`}
           alt="Image"
           height={500}
           width={540}
@@ -26,7 +26,7 @@ const Products = async ({ params }: { params: ParamsType }) => {
         <div className="flex-col">
           <div className="h-[246px] border-b-[1px] border-b-[#D9D9D9]">
             <h1 className="font-inter text-6xl font-bold text-[#272343]">
-              {product?.title || "Library Stool Chair"}
+              Library Stool Chair
             </h1>
             <button
               className="w-[115.2px] h-9 bg-[#029FAE] rounded-[100px] font-inter font-semibold text-base text-white mt-9"
