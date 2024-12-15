@@ -4,14 +4,8 @@ import { ProductSection7 } from "../../../../productsData";
 import Link from "next/link";
 import { Params } from "next/dist/server/request/params";
 import { useParams } from "next/navigation";
-
-interface ParamsType {
-  slug: string;
-}
-
 const Products = () => {
   const data : Params = useParams();
-
   return (
     <div>
       <div className="pl-[208px] flex pt-[132px] gap-[88px] pr-[268px]">
