@@ -4,8 +4,12 @@ import { ProductSection7 } from "../../../../productsData";
 import Link from "next/link";
 import { Params } from "next/dist/server/request/params";
 import { useParams } from "next/navigation";
+import { cart } from "@/app/cart";
+import { useRouter } from "next/navigation";
+import { AppRouterInstance } from "next/dist/shared/lib/app-router-context.shared-runtime";
 const Products = () => {
   const data : Params = useParams();
+  const route:AppRouterInstance = useRouter();
   return (
     <div>
       <div className="pl-[208px] flex pt-[132px] gap-[88px] pr-[268px]">
