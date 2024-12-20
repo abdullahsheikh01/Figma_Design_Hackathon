@@ -4,8 +4,6 @@ import { ProductSection7 } from "../../../../productsData";
 import Link from "next/link";
 import { Params } from "next/dist/server/request/params";
 import { useParams } from "next/navigation";
-import { useRouter } from "next/navigation";
-import { AppRouterInstance } from "next/dist/shared/lib/app-router-context.shared-runtime";
 const Products = () => {
   const data : Params = useParams();
   return (
