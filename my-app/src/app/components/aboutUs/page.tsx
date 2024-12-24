@@ -15,7 +15,7 @@ const AboutUs = () => {
         },
         {
             title:"Made by true artisans",
-            imgUrl:"/checkMarkLogo.svg",
+            imgUrl:"/checkmarkLogo.svg",
             description:"Handmade crafted goods made with real passion and craftmanship",
             imgAlt:"Check Mark Icon"
         },
