@@ -23,7 +23,7 @@ const Navbar = () => {
                 </Link>
             </ul>
         </div>
-        <div className="flex">
+        <Link href="/components/contactUs" className="flex">
             <p className="text-[#272343] font-inter font-medium
                  text-[14px">
                 <span className="text-[#636270] font-inter font-medium
@@ -31,7 +31,7 @@ const Navbar = () => {
                     Contact: 
                 </span> (808) 555-0111
             </p>
-        </div>
+        </Link>
     </nav>
   )
 }
