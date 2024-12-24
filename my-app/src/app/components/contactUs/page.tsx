@@ -3,7 +3,7 @@ import Form from "../form/page";
 import ContactPageBanner from "../contactPageBanner/page";
 const ContactUs = () => {
   return (
-    <div className='px-[218.4px] flex flex-col items-center'>
+    <div className='px-[218.4px] flex flex-col items-center mt-[20px]'>
       <div className='mt-[20px]'>
         <h1 className='font-poppins text-black text-4xl font-semibold text-center'
         >Get in Touch With Us</h1>

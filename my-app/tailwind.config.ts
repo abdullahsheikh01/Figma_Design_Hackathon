@@ -13,7 +13,8 @@ export default {
   			inter: ['Inter','sans-serif'],
   			poppins: ['Poppins','sans-serif'],
   			roboto: ['Roboto','sans-serif'],
-  			openSans: ['OpenSans','sans-serif']
+  			openSans: ['OpenSans','sans-serif'],
+			worksans: ['"Work Sans"', 'sans-serif'],
   		},
   		colors: {
   			background: 'var(--background)',

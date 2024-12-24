@@ -1,3 +1,4 @@
+import Link from 'next/link';
 const TopHeader = () => {
     return (
         <div className="flex items-center h-[45px] w-full bg-[#272343] 
@@ -22,7 +23,7 @@ const TopHeader = () => {
                     </div>
                 </div>
                 <div className="flex items-center">
-                    <p>Faqs</p>
+                    <Link href="/components/faqsPage">Faqs</Link>
                 </div>
                 <div className="flex gap-1 items-center">
                     <div>
