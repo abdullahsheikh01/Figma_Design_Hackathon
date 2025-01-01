@@ -1,16 +1,18 @@
 import Image from "next/image"
 const Hero = () => {
     return (
-        <div className="pl-[15.625%] pr-[15.6%]">
-            <div className="bg-[#F0F2F3] h-[850px] w-full rounded-b-[48px]
-      flex items-center gap-[130px]">
-                <div className="ml-[50px] leading-[66px] mt-[239px] mb-[284px]">
-                    <h2 className="font-inter text-[14px] text-[#272343]
+        <div className="pl-[15.625%] pr-[15.6%]  xl:pl-[206px] lg:pl-[175px] md:pl-[125px] sm:pl-[106px] exsm:pl-[40px] xl:pr-[205px] lg:pr-[173px]
+        md:pr-[122px] sm:pr-[102px] exsm:pr-[35px]">
+            <div className="bg-[#F0F2F3] h-auto w-full rounded-b-[48px]
+      flex items-center justify-between pb-[284px] sm:pb-[40px] exsm:pb-[40px] 2xl:h-[850px]
+      ">
+                <div className="ml-[50px] leading-[66px] exsm:leading-0 sm:leading-0 mt-[239px] exsm:mt-0 sm:mt-0">
+                    <h2 className="font-inter text-[14px] text-[#272343] 
              tracking-[2]">
                         Welcome to chairy
                     </h2>
-                    <h1 className="font-inter font-bold text-[60px]
-                    text-[#272343] mt-6 mb-[49px]">
+                    <h1 className="font-inter font-bold 2xl:text-[60px] xl:text-[50px] md:text-[40px] sm:text-[30px] exsm:text-[40px]
+                    text-[#272343] mt-6 mb-[49px] exsm:mt-2 ">
                         Best Furniture<br />Collection for your interior.
                     </h1>
                     <button className="flex text-white font-inter text-base 
@@ -22,9 +24,11 @@ const Hero = () => {
                         </svg>
                     </button>
                 </div>
-                <Image src="/chair.png" height={364} width={454}
-                alt="chair.png" className="mr-[10px]"
-                />
+                <div className="mr-[10px] flex-shrink-0">
+                    <Image src="/chair.png" height={364} width={454} layout="responsive"
+                    alt="chair.png" className="object-contain exsm:hidden"
+                    />
+                </div>
             </div>
         </div>
     )

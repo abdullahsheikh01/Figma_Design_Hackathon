@@ -3,7 +3,7 @@ import BottomHeader from "../bottom_header/page";
 import Navbar from "../navbar/page";
 const Header = () => {
   return (
-    <div>
+    <div className="w-full">
       <TopHeader/>
       <BottomHeader/>
       <Navbar/>

@@ -2,7 +2,7 @@ import Link from 'next/link';
 const TopHeader = () => {
     return (
         <div className="flex items-center h-[45px] w-full bg-[#272343] 
-    px-[15.625%] text-white justify-between text-[13px] font-inter font-normal">
+    px-[15.625%] text-white justify-between text-[13px] font-inter font-normal exsm:text-[8px]">
             <div className="flex gap-2 items-center">
                 <div>
                     <svg width="14" height="10" viewBox="0 0 14 10" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -13,7 +13,7 @@ const TopHeader = () => {
                     Free shipping on all orders over $50
                 </p>
             </div>
-            <div className="flex items-center gap-[19.2px]">
+            <div className="flex items-center gap-[19.2px] exsm:gap-2">
                 <div className="flex items-center gap-1">
                     <p>Eng</p>
                     <div>

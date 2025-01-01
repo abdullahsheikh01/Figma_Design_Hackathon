@@ -1,8 +1,8 @@
 import Link from "next/link";
 const Navbar = () => {
   return (
-    <nav className="px-[15.625%] flex h-[74px] w-full items-center 
-    justify-between">
+    <nav className="h-[74px] w-full 
+ 2xl:px-[15.625%] xl:px-[206px] lg:px-[175px]  sm:hidden exsm:hidden md:hidden 2xl:flex xl:flex items-center justify-between">
         <div>
             <ul className="flex gap-7 text-[#636270] font-inter
              font-medium text-[14px]">
@@ -31,7 +31,7 @@ const Navbar = () => {
                     Contact: 
                 </span> (808) 555-0111
             </p>
-        </Link>
+        </Link>      
     </nav>
   )
 }
