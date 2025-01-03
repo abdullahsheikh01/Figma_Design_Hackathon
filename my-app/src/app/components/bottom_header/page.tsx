@@ -32,7 +32,6 @@ const BottomHeader = () => {
                 </div>
             </Link>
             <div className="2xl:hidden xl:hidden md:flex sm:flex exsm:flex">
-      {/* Hamburger Menu for Small Screens */}
       <div className="">
         <button
           onClick={() => setIsOpen(!isOpen)}

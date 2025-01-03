@@ -21,7 +21,9 @@ const ContactPageBanner = () => {
         }
     ]
   return (
-    <div className='w-[1056px] flex gap-[105.6px] items-center mt-[80px] bg-[#F4F4F4] h-[250px] px-[52.8px]'>
+    <div className='w-[1056px] flex gap-[105.6px] items-center mt-[80px] bg-[#F4F4F4] 2xl:h-[250px] xl:h-[250px]  lg:h-[250px] 
+    px-[52.8px] 2xl:flex-row xl:flex-row md:h-[250px] 
+    lg:flex-row  exsm:flex-col exsm:h-auto  sm:h-auto sm:flex-col sm:gap-4 exsm:gap-4 md:gap-4 sm:w-full  exsm:w-full md:justify-between md:w-full md:px-2'>
       {
         divsData.map((divInfo, index) => {
             return (

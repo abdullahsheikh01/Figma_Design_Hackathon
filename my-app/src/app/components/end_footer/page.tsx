@@ -14,6 +14,5 @@ const EndFooter = () => {
         </div>
     </div>
   )
-}
-
-export default EndFooter
+};
+export default EndFooter;

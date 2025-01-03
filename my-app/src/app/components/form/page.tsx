@@ -1,6 +1,6 @@
 const Form = () => {
     return (
-        <form className="flex flex-col gap-6 relative">
+        <form className="flex flex-col gap-6 relative md:mt-7 sm:mt-7 exsm:mt-7">
             <div className="flex flex-col">
                 <label>Your name</label>
                 <input type="text" placeholder="Abc"/>

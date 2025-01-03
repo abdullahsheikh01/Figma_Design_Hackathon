@@ -54,3 +54,9 @@ input::placeholder,textarea::placeholder{
   color: #9A9CAA;
   font-weight: normal;
 }
+
+@media (max-width: 768px){
+  input{
+    width: 100%;
+  }
+}
