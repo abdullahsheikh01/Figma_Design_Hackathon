@@ -33,28 +33,29 @@ const AboutUs = () => {
         }
     ]
   return (
-    <div className='px-[240px] mt-[90px] mb-[93px]'>
-      <div className='grid grid-cols-2'>
+    <div className='2xl:px-[240px] mt-[90px] mb-[93px] xl:px-[206px] lg:px-[175px] md:px-[125px] sm:px-[106px] 
+    exsm:px-[40px] exsm:mt-3'>
+      <div className='grid grid-cols-2 xl:gap-4 lg:gap-3 md:flex md:justify-center sm:flex sm:justify-center exsm:flex exsm:justify-center'>
         <div className="w-auto h-auto bg-[#007580] pt-[30px] pl-10 pr-16">
             <div>
             <h3 className='text-white font-inter font-bold text-[32px]'>About Us-Comforty</h3>
-            <p className='text-white font-inter text-[18px]'>
+            <p className='text-white font-inter text-[18px] exsm:mt-3'>
                 At Comforty, we believe that the right chair can transform your space and elevate your comfort. Specializing in ergonomic design, 
                 premium materials, and modern aesthetics, we craft chairs that seamlessly blend style with functionality. 
             </p>
             </div>
-            <button className='w-[173px] mt-[133px] bg-[rgba(249,249,249,0.15)] flex justify-center items-center mb-[44px] h-[50px]
+            <button className='w-[173px] mt-[133px] exsm:mt-8 bg-[rgba(249,249,249,0.15)] flex justify-center items-center mb-[44px] h-[50px]
             font-inter text-base text-white'>View Collection</button>
         </div>
-        <div className="w-full">
+        <div className="w-full md:hidden sm:hidden exsm:hidden">
             <img src="/product1.svg" alt="" className="w-full h-[468px]"/>
         </div>
       </div>
-      <div className="mt-[121px]">
-        <div className="flex justify-center font-inter font-semibold text-[32px]">
+      <div className="mt-[121px] flex flex-col items-center">
+        <div className=" font-inter font-semibold text-[32px]">
             <h4>What makes our Brand Different</h4>
         </div>
-        <div className="mt-[38px] flex gap-4">
+        <div className="mt-[38px] grid grid-cols-4 gap-4 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-2 exsm:grid-cols-1">
                 {
                     bdDivsData.map((bdDiv, index) => {
                         return(
@@ -71,7 +72,7 @@ const AboutUs = () => {
       </div>
       <div className="mt-[120px]">
         <h5 className="text-[#272343] font-inter font-semibold text-[32px]">Our Popular Products</h5>
-        <div className="mt-[32px] flex justify-between">
+        <div className="mt-[32px] flex gap-6 xl:gap-3 lg:gap-3 md:gap-3 sm:gap-2 exsm:flex-col exsm:gap-10">
             <div>
             <Image src="/sofa.svg" height={365} width={505} alt="Long Green Sofa"
             />

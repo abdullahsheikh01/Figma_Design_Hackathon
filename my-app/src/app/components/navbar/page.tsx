@@ -2,7 +2,7 @@ import Link from "next/link";
 const Navbar = () => {
   return (
     <nav className="h-[74px] w-full 
- 2xl:px-[15.625%] xl:px-[206px] lg:px-[175px]  sm:hidden exsm:hidden md:hidden 2xl:flex xl:flex items-center justify-between">
+ 2xl:px-[15.625%] xl:px-[206px] lg:px-[175px]  sm:hidden exsm:hidden md:hidden 2xl:flex xl:flex lg:flex items-center justify-between">
         <div>
             <ul className="flex gap-7 text-[#636270] font-inter
              font-medium text-[14px]">

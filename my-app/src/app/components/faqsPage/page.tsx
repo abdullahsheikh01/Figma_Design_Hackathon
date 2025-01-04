@@ -1,14 +1,15 @@
 import { faqsData } from "@/app/faqsData";
 const FaqsPage = () => {
   return (
-    <div className='px-[260px] mt-[20px] flex flex-col gap-[65px] mb-[120px]'>
+    <div className='px-[260px] mt-[20px] flex flex-col gap-[65px] mb-[120px]  xl:px-[224px] lg:px-[190px] md:px-[135px] sm:px-[115px] exsm:px-[43px] exsm:mt-3
+'>
         <div className="flex flex-col items-center">
-        <h1 className="font-worksans font-bold text-[45px]">Questions Look Here</h1>
+        <h1 className="font-worksans font-bold text-[45px] text-center">Questions Look Here</h1>
         <p className="font-inter text-base text-[#4F4F4F]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
             Lorem Ipsum has been the 
         </p>
         </div>
-        <div className="grid grid-cols-2 gap-[20px]">
+        <div className="grid grid-cols-2 gap-[20px] sm:grid-cols-1 exsm:grid-cols-1">
             {faqsData.map((faq, index) => {
                 return (
                     <div  key={index} className="w-auto h-auto bg-[#F7F7F7] rounded-[8px] px-4 py-4">

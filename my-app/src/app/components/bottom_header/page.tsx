@@ -31,7 +31,7 @@ const BottomHeader = () => {
                     <p>{cart.length}</p>
                 </div>
             </Link>
-            <div className="2xl:hidden xl:hidden md:flex sm:flex exsm:flex">
+            <div className="2xl:hidden xl:hidden lg:hidden md:flex sm:flex exsm:flex">
       <div className="">
         <button
           onClick={() => setIsOpen(!isOpen)}
