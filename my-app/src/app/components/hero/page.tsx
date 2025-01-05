@@ -11,7 +11,8 @@ const Hero = () => {
              tracking-[2]">
                         Welcome to chairy
                     </h2>
-                    <h1 className="font-inter font-bold 2xl:text-[60px] xl:text-[50px] md:text-[40px] sm:text-[30px] exsm:text-[40px]
+                    <h1 className="font-inter font-bold 2xl:text-[60px] xl:text-[50px] md:text-[40px] 
+                    lg:text-5xl sm:text-[30px] exsm:text-[40px]
                     text-[#272343] mt-6 mb-[49px] exsm:mt-2 ">
                         Best Furniture<br />Collection for your interior.
                     </h1>
