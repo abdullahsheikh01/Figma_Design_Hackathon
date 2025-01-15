@@ -27,7 +27,7 @@ const Hero = () => {
                 </div>
                 <div className="mr-[10px] flex-shrink-0">
                     <Image src="/chair.png" height={364} width={454} layout="responsive"
-                    alt="chair.png" className="object-contain exsm:hidden mt-[239px]"
+                    alt="chair.png" className="object-contain exsm:hidden mt-[239px] sm:hidden"
                     />
                 </div>
             </div>

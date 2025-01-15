@@ -71,6 +71,92 @@ export const ProductSection2:Products[]=[
         id:4,
     },
 ];
+export const productSection1_2 :Products[] = [
+    {
+        title:"Library Stool Chair",
+        imgUrl:"/product1.svg",
+        label:"New",
+        price:"$20",
+        id:1,
+    },
+    {
+        title:"Library Stool Chair",
+        imgUrl:"/product2.svg",
+        label:"Sales",
+        price:"$20",
+        id:2,
+        oldPrice:"$30",
+    },
+    {
+        title:"Library Stool Chair",
+        imgUrl:"/product3.svg",
+        price:"$20",
+        id:3,
+    },
+    {
+        title:"Library Stool Chair",
+        imgUrl:"/product4.svg",
+        price:"$20",
+        id:4,
+    },
+    {
+        title:"Library Stool Chair",
+        imgUrl:"/product1.svg",
+        label:"New",
+        price:"$20",
+        id:5,
+    },
+    {
+        title:"Library Stool Chair",
+        imgUrl:"/product2.svg",
+        label:"Sales",
+        price:"$20",
+        id:6,
+        oldPrice:"$30",
+    },
+    {
+        title:"Library Stool Chair",
+        imgUrl:"/product3.svg",
+        price:"$20",
+        id:7,
+    },
+    {
+        title:"Library Stool Chair",
+        imgUrl:"/product4.svg",
+        price:"$20",
+        id:8,
+    },
+];
+
+export const ProductSection2b:Products[]=[
+    {
+        title:"Library Stool Chair",
+        imgUrl:categoryProducts[0].imgUrl,
+        label:"New",
+        price:"$20",
+        id:1,
+    },
+    {
+        title:"Library Stool Chair",
+        imgUrl:"/gray_chair.svg",
+        label:"Sales",
+        price:"$20",
+        id:2,
+        oldPrice:"$30",
+    },
+    {
+        title:"Library Stool Chair",
+        imgUrl:"/chairWithPillow.svg",
+        price:"$20",
+        id:3,
+    },
+    {
+        title:"Library Stool Chair",
+        imgUrl:ProductSection1[0].imgUrl,
+        price:"$20",
+        id:4,
+    },
+]
 
 export const ProductSection3 : Products[] = [
     ProductSection1[0],

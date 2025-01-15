@@ -5,7 +5,7 @@ const ProductSectionComp = (prop:{
     products:Products[],
 }) => {
     return (
-    <div className={`grid grid-cols-4  mt-10  gap-8`}>
+    <div className="grid grid-cols-4  mt-10  gap-8 sm:gap-20 xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 exsm:grid-cols-1">
       {
         prop.products.map(
             (product:Products,index:number)=>{

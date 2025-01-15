@@ -52,7 +52,9 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Header/>
+        <div className="exsm:mb-[200px]">
         {children}
+        </div>
         <Footer/>
       </body>
     </html>

@@ -1,6 +1,7 @@
 import { cart } from "@/app/cart";
 import Image from "next/image";
 const Cart = () => {
+    
   return (
     <div className="pl-[226.4px] pr-[232px] flex gap-[100px] 2xl:gap-[100px] xl:gap-[86px] lg:gap-[73px] md:gap-[52px] sm:gap-2 exsm:gap-[17px] 
  2xl:pl-[226.4px] xl:pl-[194px] 

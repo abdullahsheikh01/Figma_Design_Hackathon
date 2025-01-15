@@ -4,8 +4,16 @@ import { ProductSection7 } from "../../../../productsData";
 import Link from "next/link";
 import { Params } from "next/dist/server/request/params";
 import { useParams } from "next/navigation";
+import { cart } from "@/app/cart";
 const Products = () => {
   const data : Params = useParams();
+  async function cartAdder(){
+    cart.push({
+      title:"Library Stool Chair",
+      imgUrl:await data.slug as string,
+      price:99
+    })
+  }
   return (
     <div>
       <div className="pl-[208px] flex pt-[132px] gap-[88px] pr-[268px]">
@@ -29,13 +37,14 @@ const Products = () => {
             </button>
           </div>
           <div className="mt-[30px]">
-            <p className="font-inter text-[17px] opacity-60 text-[#272343]">
+            <p className="font-inter text-[17px] opacity-60 text-[rgb(39,35,67)]">
               Lorem ipsum dolor sit amet, consectetur adipiscing <br /> elit.
               Nullam tincidunt erat enim. Lorem ipsum dolor <br /> sit amet,
               consectetur adipiscing
             </p>
             <button
               className="w-[169.6px] h-[50.4px] bg-[#029FAE] rounded-[8px] mt-8 flex items-center justify-center gap-2"
+              onClick={cartAdder}
             >
               <Image src="/buy2.svg" alt="Cart" height={21} width={21} />
               <p className="font-inter text-[17px] text-white">Add to Cart</p>

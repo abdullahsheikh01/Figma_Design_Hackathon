@@ -1,5 +1,5 @@
 interface cartProduct{
-    imgUrl: string,
+    imgUrl: string ,
     title:string,
     price:number,
 };

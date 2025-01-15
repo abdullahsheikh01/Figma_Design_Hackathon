@@ -2,17 +2,17 @@ import Image from "next/image";
 import Link from "next/link";
 const MainFooter = () => {
   return (
-    <div className="flex h-[329px] items-center px-[15.625%]">
-        <div className="flex justify-between w-full">
+    <div className="flex h-[329px] items-center px-[15.625%] 2xl:px-[240px] xl:px-[206px] lg:px-[175px] md:px-[80px] sm:px-[106px] exsm:px-[40px] exsm:mb-[300px] ">
+        <div className="flex justify-between w-screen lg:gap-6 md:gap-6 sm:grid sm:grid-cols-3 sm:mt-[350px] sm:gap-6 exsm: exsm:grid-cols-3 exsm:mt-[350px] exsm:gap-6 exsm:ml-0 2xl:mt-0 xl:mt-0">
             <div className="flex flex-col gap-6">
-                <div className="flex gap-1">
+                <div className="flex gap-1 exsm:hidden">
                 <Image src="/logo.png"
                 alt="logo"
                 height={40} width={40}
                 />
                 <h2 className="font-semibold font-inter text-[26px]">Comforty</h2>
                 </div>
-                <div className="font-inter text-base text-[rgba(39,35,67,0.6)]">
+                <div className="font-inter text-base text-[rgba(39,35,67,0.6)] exsm:hidden">
                     <p>
                     Vivamus tristique odio sit amet velit semper, <br /> eu posuere turpis interdum. <br />
                     Cras egestas purus 
@@ -103,14 +103,14 @@ const MainFooter = () => {
                 </h5>
                 <div>
                     <input type="text" 
-                    className="h-11 w-[228px] rounded-[8px] border-2 mt-4 border-[#E1E3E5] pl-3 footerButton"
+                    className="h-11 w-[228px] rounded-[8px] border-2 mt-4 border-[#E1E3E5] pl-3 footerButton sm:w-10 exsm:w-10"
                     placeholder="Your email"
                     />
                     <button type="submit" className="h-11 w-[101.6px] bg-[#029FAE] rounded-[8px] 
                     font-inter font-semibold text-base text-white ml-3">Subscribe
                     </button>
                 </div>
-                <div className="font-inter text-[15px] text-[#272343] opacity-60 mt-5">
+                <div className="font-inter text-[15px] text-[#272343] opacity-60 mt-5 exsm:hidden">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />
                         Nullam tincidunt erat enim.</p>
                 </div>
