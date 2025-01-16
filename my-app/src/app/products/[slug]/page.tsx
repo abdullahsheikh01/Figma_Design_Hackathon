@@ -7,13 +7,6 @@ import { useParams } from "next/navigation";
 import { cart } from "@/app/cart";
 const Products = () => {
   const data : Params = useParams();
-  async function cartAdder(){
-    cart.push({
-      title:"Library Stool Chair",
-      imgUrl:await data.slug as string,
-      price:99
-    })
-  }
   return (
     <div>
       <div className="pl-[208px] flex pt-[132px] gap-[88px] pr-[268px]">
@@ -22,8 +15,6 @@ const Products = () => {
           alt="Image"
           height={500}
           width={540}
-          placeholder="blur"
-          blurDataURL="/placeholder.png" // Optional: For better UX
         />
         <div className="flex-col">
           <div className="h-[246px] border-b-[1px] border-b-[#D9D9D9]">
@@ -44,7 +35,7 @@ const Products = () => {
             </p>
             <button
               className="w-[169.6px] h-[50.4px] bg-[#029FAE] rounded-[8px] mt-8 flex items-center justify-center gap-2"
-              onClick={cartAdder}
+              
             >
               <Image src="/buy2.svg" alt="Cart" height={21} width={21} />
               <p className="font-inter text-[17px] text-white">Add to Cart</p>

@@ -70,26 +70,24 @@ const BottomHeader = () => {
           )}
         </button>
       </div>
-
-      {/* Dropdown Menu for Small Screens */}
       {isOpen && (
         <ul className="absolute top-[150px] left-0 w-full bg-white shadow-md  flex-col items-center gap-5 py-4 text-[#636270] font-inter font-medium text-[14px] hidden md:flex sm:flex exsm:flex">
-          <Link href="/pages/home">
+          <Link href="/pages/home" onClick={()=>setIsOpen(!isOpen)}>
             <li className="hover:text-[#007580]">Home</li>
           </Link>
-          <Link href="">
+          <Link href="" onClick={()=>setIsOpen(!isOpen)}>
             <li className="hover:text-[#007580]">Shop</li>
           </Link>
-          <Link href="/pages/products">
+          <Link href="/pages/products" onClick={()=>setIsOpen(!isOpen)}>
             <li className="hover:text-[#007580]">Product</li>
           </Link>
           <Link href="">
-            <li className="hover:text-[#007580]">Pages</li>
+            <li className="hover:text-[#007580]" onClick={()=>setIsOpen(!isOpen)}>Pages</li>
           </Link>
-          <Link href="/components/aboutUs">
+          <Link href="/components/aboutUs" onClick={()=>setIsOpen(!isOpen)}>
             <li className="hover:text-[#007580]">About</li>
           </Link>
-          <Link href="/components/contactUs">
+          <Link href="/components/contactUs" onClick={()=>setIsOpen(!isOpen)}>
             <li className="hover:text-[#007580]">Contact: (808) 555-0111</li>
           </Link>
         </ul>
