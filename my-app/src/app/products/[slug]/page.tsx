@@ -4,7 +4,6 @@ import { ProductSection7 } from "../../../../productsData";
 import Link from "next/link";
 import { Params } from "next/dist/server/request/params";
 import { useParams } from "next/navigation";
-import { cart } from "@/app/cart";
 const Products = () => {
   const data : Params = useParams();
   return (
